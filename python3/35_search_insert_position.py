@@ -52,10 +52,3 @@ class Solution5:
             elif nums[mid] < target: low = mid + 1
             else: high = mid - 1
         return low
-
-s = Solution4()
-print(s.searchInsert([1,3,5,6], 5))
-print(s.searchInsert([1,3,5,6], 2))
-print(s.searchInsert([1,3,5,6], 7))
-print(s.searchInsert([1,3,5,6], 0))
-print(s.searchInsert([], 0))
