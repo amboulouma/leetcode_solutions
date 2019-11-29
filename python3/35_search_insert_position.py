@@ -39,7 +39,6 @@ class Solution4:
             nums.sort()
         return nums.index(target)
 
-
 # O(log(n)) Time
 # O(1) space
 # Binary search algorithm
